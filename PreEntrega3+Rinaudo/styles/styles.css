@@ -25,9 +25,23 @@ body {
   font-size: 1.2em;
 }
 
+header h1:hover {
+
+  font-size: 1.5em; 
+  transition: 1s;  
+  
+}
+
 .nav-links {
   display: flex;
   gap: 15px;
+}
+
+nav a:hover {
+  color: #ff80aa;
+  text-decoration: none;
+  font-weight: bold; 
+  transition: 1s; 
 }
 
 .nav-links a {
@@ -64,7 +78,7 @@ body {
 }
 
 .btn {
-  background-color: #ffd700;
+  background-color: #ffcd28;
   padding: 10px 20px;
   border: none;
   border-radius: 25px;
@@ -96,9 +110,9 @@ body {
 }
 
 .category, .product {
-  background: #f4f4f4;
+  background: #d1c9ca;
   border-radius: 8px;
-  width: 200px;
+  width: 250px;
   padding: 10px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
